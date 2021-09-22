@@ -1,0 +1,43 @@
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-top-width: thick;
+  width: 7%;
+}
+body{
+  background-color: #FFBF86;
+}
+/******************TAG SELECTOR******************/
+h1:hover {
+    background-color: #FFBF86;
+  color: #2D2424;
+  text-shadow: 2px 7px 5px #FFBF86;
+}
+  /*
+  img{
+  background-color:  #5C3D2E;
+     height: 250px;
+     width: 250px;
+  }
+  */
+/******************CLASS SELECTOR******************/
+
+.chocolate:hover {
+background-color: #2D2424;
+height: 160px;
+width: 160px;
+}
+.cupcake {
+height: 300px;
+width: 600px;
+}
+.circular {
+  border-radius: 600px;
+}
+/******************ID SELECTOR******************/
+#heading{
+  background-color: #5C3D2E;
+  text-align: center;
+font-size: 100px;
+  text-shadow: 2px 7px 5px #FFBF86;
+}
